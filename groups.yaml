@@ -1,0 +1,14 @@
+---
+
+cisco_group:
+  platform: cisco_ios
+
+nx_group:
+  platform: cisco_nxos
+
+arista_group:
+  platform: arista_eos
+
+forti_group:
+  platform: fortinet
+  
