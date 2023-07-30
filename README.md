@@ -1,7 +1,20 @@
 # DeviceBackupPack
-__DeviceBackupPack can backup running-configration of Cisco(IOS/IOS-XE), Nexus(NX-OS) and FortiGate.__
+### DeviceBackupPack can back up running-configration of Cisco(IOS/IOS-XE), Nexus(NX-OS) and FortiGate.
 
-## ファイルの説明
+## Files and folders
+   | Files/Folder | Descripttion |
+   | --- | --- |
+   | __main.py__ | Run CsvFolderToNornir_hostsYaml.py and Backupconfig_nornir_netmiko.py |  
+   | __CsvFolderToNornir_hostsYaml.py__ | Creating hosts.yaml for Nornir from csv files in CSVfolder. |  
+   | __CSVfolder__ | You need to create the csv files for inventory under this folder. |
+   | __Backupconfig_nornir_netmiko.py__ | Accesses devices and get and save running-config |     
+   | __config.yaml__ | Config.yaml for Nornir |  
+   | __defaults.yaml__ | defaults.yaml for Nornir |  
+   | __groups.yaml__ | groups.yaml for Nornir |  
+   | __hosts.yaml__ | hosts.yaml for Nornir. This file is automatically created by CsvFolderToNornir_hostsYaml.py and csv files |   
+   | __config-archive__ | This folder is created automatically by Backupconfig_nornir_netmiko.py. Backed up running-configs are saved under this folder. |  
+
+   Nornir: https://nornir.readthedocs.io/en/latest/
 
 ## How to use
 1. Download file  
@@ -48,7 +61,7 @@ __DeviceBackupPack can backup running-configration of Cisco(IOS/IOS-XE), Nexus(N
     - Move to DeviceBackupPack  
     > cd ..
 
-    -run main.py
+    -Run main.py
     >python3 main.py
 
 6. Check config-archive  
