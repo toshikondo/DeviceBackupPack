@@ -1,3 +1,0 @@
-name,hostname,platform,port,username,password,groups
-NXSW1,192.168.1.170,cisco_nxos,22,kondo,cisco,nx_group
-NXSW2,192.168.1.171,cisco_nxos,22,kondo,cisco,nx_group

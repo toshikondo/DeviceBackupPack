@@ -1,14 +1,30 @@
 ---
-R2:
-  hostname: 192.168.1.151
+R1:
+  hostname: 192.168.1.150
   platform: cisco_ios
   port: 22
   username: kondo
   password: cisco
   groups:
     - cisco_group
-SW2:
-  hostname: 192.168.1.161
+NXSW1:
+  hostname: 192.168.1.170
+  platform: cisco_nxos
+  port: 22
+  username: kondo
+  password: cisco
+  groups:
+    - nx_group
+FortiFW1:
+  hostname: 192.168.1.41
+  platform: fortinet
+  port: 22
+  username: kondo
+  password: forti
+  groups:
+    - forti_group
+R2:
+  hostname: 192.168.1.151
   platform: cisco_ios
   port: 22
   username: kondo
