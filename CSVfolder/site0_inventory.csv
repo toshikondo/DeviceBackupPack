@@ -1,4 +1,0 @@
-name,hostname,platform,port,username,password,groups
-R1,192.168.1.150,cisco_ios,22,kondo,cisco,cisco_group
-SW1,192.168.1.160,cisco_ios,22,kondo,cisco,cisco_group
-FortiFW1,192.168.1.41,fortinet,22,kondo,forti,forti_group

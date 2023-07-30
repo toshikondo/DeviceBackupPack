@@ -1,0 +1,6 @@
+name,hostname,platform,port,username,password,groups
+R1,192.168.1.150,cisco_ios,22,kondo,cisco,cisco_group
+NXSW1,192.168.1.170,cisco_nxos,22,kondo,cisco,nx_group
+FortiFW1,192.168.1.41,fortinet,22,kondo,forti,forti_group
+R2,192.168.1.151,cisco_ios,22,kondo,cisco,cisco_group
+
